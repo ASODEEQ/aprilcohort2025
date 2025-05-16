@@ -11,7 +11,7 @@ const Formm = () => {
     },
     onSubmit: (values) => {
       console.log(values);
-      console.log(errors);
+      // console.log(errors);
       console.log(formik.touched);
     },
     validationSchema: yup.object({
