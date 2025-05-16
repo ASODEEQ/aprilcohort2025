@@ -1,0 +1,19 @@
+
+.overall{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+
+}
+.items{
+    border: 1px solid;
+     height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+}
