@@ -1,6 +1,3 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import { Navigate, Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
@@ -12,7 +9,7 @@ import Layout from './pages/Layout'
 import Profile from './pages/Profile'
 import Effect from './pages/Effect'
 import Effectpractice from './pages/Effectpractice'
-import Formm from './pages/formm'
+// import Formm from './pages/formm'
 
 function App() {
 
@@ -27,7 +24,7 @@ function App() {
           <Route path="/contact" element={<Navigate to={'/sp-contact'} />} />
         </Route>
         <Route path='/effect' element={<Effect/>}/>
-        <Route path='/formm' element={<Formm/>}/>
+        {/* <Route path='/formm' element={<Formm/>}/> */}
         <Route path='/effectpractice' element={<Effectpractice/>}/>
         <Route path='/account/:username' element={<Profile />} />
         <Route path="*" element={<NotFound />} />
